@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">18990096-葛正晓</string>
+    <string name="center_inside">center_Inside</string>
+    <string name="center_crop">center_Crop</string>
+    <string name="fit_center">fit_Center</string>
+    <string name="center">center</string>
+    <string name="fit_xy">fit_XY</string>
+    <string name="fit_start">fit_Start</string>
+    <string name="fit_end">fit_End</string>
+    <string name="todo">TODO</string>
+</resources>

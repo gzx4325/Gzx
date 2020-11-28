@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homework05">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="18990096-葛正晓"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegisterActivity" android:exported="true"></activity>
+        <activity
+            android:name=".TextWriteActivity"
+            android:exported="true" />
+        <activity android:name=".TextReadActivity" />
+        <activity android:name=".ShareWriteActivity"  android:exported="true"/>
+        <activity android:name=".ShareReadActivity" />
+        <activity android:name=".SQLiteWriteActivity"  android:exported="true" />
+        <activity android:name=".SQLiteReadActivity" />
+        <activity android:name=".SDCardInfoActivity" />
+        <activity android:name=".ImageWriteActivity" android:exported="true"/>
+        <activity android:name=".ImageReadActivity" />
+        <activity android:name=".AppWriteActivity"  android:exported="true"/>
+        <activity android:name=".AppReadActivity" />
+        <activity
+            android:name=".LoginForgetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SwitchActivity"
+            android:exported="true" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
